@@ -1,104 +1,70 @@
-# Secure Inventory System
+# Getting Started with Create React App
 
-## Project Description
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is a secure web-based inventory management system developed for the Secure Software Development (IKB21503) course.
+## Available Scripts
 
-The system includes:
+In the project directory, you can run:
 
-- Secure Authentication
-- Role-Based Access Control (RBAC)
-- Audit Logging
-- Protected Routes
-- Session Management
-- OWASP-based Secure Coding Practices
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Installation
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-```bash
-npm install
-```
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Run Backend Server
+### `npm run build`
 
-```bash
-node server.js
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Run Frontend
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```bash
-cd frontend
-npm start
-```
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Dependencies
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- express
-- mysql2
-- bcryptjs
-- express-session
-- dotenv
-- helmet
-- react
-- react-router-dom
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Security Features
+## Learn More
 
-- Password hashing using bcrypt
-- Role-Based Access Control (RBAC)
-- Session authentication
-- SQL Injection prevention
-- Audit logging
-- Protected routes
-- Input validation
-- OWASP ZAP testing
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
----
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## API Endpoints
+### Code Splitting
 
-### Authentication
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- POST /auth/register
-- POST /auth/login
-- POST /auth/logout
+### Analyzing the Bundle Size
 
-### Products
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- GET /products
-- POST /products
-- PUT /products/:id
-- DELETE /products/:id
+### Making a Progressive Web App
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Screenshots
+### Advanced Configuration
 
-### Login Page
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-(Add screenshot here)
+### Deployment
 
-### Dashboard
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-(Add screenshot here)
+### `npm run build` fails to minify
 
-### Products Page
-
-(Add screenshot here)
-
----
-
-## Author
-
-Developed for Secure Software Development (IKB21503)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
